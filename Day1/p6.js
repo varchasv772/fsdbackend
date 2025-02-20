@@ -1,7 +1,7 @@
 const fs = require('fs');
 const write=(data)=>{
 
-        fs.writeFile("./data.text",data,(err)=>{
+        fs.writeFile("./mydir/data.txt",data,(err)=>{
             if(err)
                 console.log("error writting file",err);
             else
@@ -9,6 +9,5 @@ const write=(data)=>{
         });
  
 }
-console.log("before data")
-write("my name is varchasv sharma i am pursuing btech from abes engineering college");
-console.log("after writing");
+
+write("aastha shama");
